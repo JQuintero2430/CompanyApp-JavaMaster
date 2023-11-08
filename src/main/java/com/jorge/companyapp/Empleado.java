@@ -34,7 +34,7 @@ public class Empleado extends Persona{
     }
 
     public void aumentarSalario(int porcentaje){
-        salario = salario + (salario * porcentaje / 100);
+        salario += (salario * porcentaje / 100);
     }
 
     @Override
